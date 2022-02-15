@@ -9,21 +9,44 @@
 /* Begin PBXBuildFile section */
 		4D93DAB627B4D53A002B2E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAB527B4D53A002B2E07 /* AppDelegate.swift */; };
 		4D93DAB827B4D53A002B2E07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAB727B4D53A002B2E07 /* SceneDelegate.swift */; };
-		4D93DABA27B4D53A002B2E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAB927B4D53A002B2E07 /* ViewController.swift */; };
+		4D93DABA27B4D53A002B2E07 /* MeasuredPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAB927B4D53A002B2E07 /* MeasuredPersonViewController.swift */; };
 		4D93DABD27B4D53A002B2E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D93DABB27B4D53A002B2E07 /* Main.storyboard */; };
 		4D93DABF27B4D53D002B2E07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D93DABE27B4D53D002B2E07 /* Assets.xcassets */; };
 		4D93DAC227B4D53D002B2E07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D93DAC027B4D53D002B2E07 /* LaunchScreen.storyboard */; };
+		4D93DACB27B4D555002B2E07 /* Instructions in Frameworks */ = {isa = PBXBuildFile; productRef = 4D93DACA27B4D555002B2E07 /* Instructions */; };
+		4D93DACD27B4DAAD002B2E07 /* AddMeasuredPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DACC27B4DAAD002B2E07 /* AddMeasuredPersonViewController.swift */; };
+		4D93DACF27B4DAD6002B2E07 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DACE27B4DAD6002B2E07 /* MeasureViewController.swift */; };
+		4D93DAD127B4DAFA002B2E07 /* MeasurementDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAD027B4DAFA002B2E07 /* MeasurementDataViewController.swift */; };
+		4D93DAD327B4E67D002B2E07 /* CustomUI in Resources */ = {isa = PBXBuildFile; fileRef = 4D93DAD227B4E67D002B2E07 /* CustomUI */; };
+		4D93DAD627B4E8E7002B2E07 /* MeasuredPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAD527B4E8E7002B2E07 /* MeasuredPerson.swift */; };
+		4D93DADA27B4E968002B2E07 /* MeasuredPersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D93DAD827B4E968002B2E07 /* MeasuredPersonTableViewCell.xib */; };
+		4D93DADB27B4E968002B2E07 /* MeasuredPersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DAD927B4E968002B2E07 /* MeasuredPersonTableViewCell.swift */; };
+		4D93DADD27B4ED67002B2E07 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DADC27B4ED67002B2E07 /* UserDefault.swift */; };
+		4D93DADF27B4ED77002B2E07 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D93DADE27B4ED76002B2E07 /* Common.swift */; };
+		4DAD466627B6461B00C6C94B /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD466527B6461B00C6C94B /* UIColor.swift */; };
+		4DAD466A27B650B700C6C94B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD466927B650B700C6C94B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D93DAB227B4D53A002B2E07 /* LibInstructionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibInstructionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D93DAB527B4D53A002B2E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D93DAB727B4D53A002B2E07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4D93DAB927B4D53A002B2E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D93DAB927B4D53A002B2E07 /* MeasuredPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuredPersonViewController.swift; sourceTree = "<group>"; };
 		4D93DABC27B4D53A002B2E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D93DABE27B4D53D002B2E07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D93DAC127B4D53D002B2E07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D93DAC327B4D53D002B2E07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D93DACC27B4DAAD002B2E07 /* AddMeasuredPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeasuredPersonViewController.swift; sourceTree = "<group>"; };
+		4D93DACE27B4DAD6002B2E07 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		4D93DAD027B4DAFA002B2E07 /* MeasurementDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementDataViewController.swift; sourceTree = "<group>"; };
+		4D93DAD227B4E67D002B2E07 /* CustomUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomUI; sourceTree = "<group>"; };
+		4D93DAD527B4E8E7002B2E07 /* MeasuredPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasuredPerson.swift; sourceTree = "<group>"; };
+		4D93DAD827B4E968002B2E07 /* MeasuredPersonTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeasuredPersonTableViewCell.xib; sourceTree = "<group>"; };
+		4D93DAD927B4E968002B2E07 /* MeasuredPersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeasuredPersonTableViewCell.swift; sourceTree = "<group>"; };
+		4D93DADC27B4ED67002B2E07 /* UserDefault.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		4D93DADE27B4ED76002B2E07 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		4DAD466527B6461B00C6C94B /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		4DAD466927B650B700C6C94B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D93DACB27B4D555002B2E07 /* Instructions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +80,42 @@
 		4D93DAB427B4D53A002B2E07 /* LibInstructionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4D93DAD727B4E937002B2E07 /* Cell */,
+				4D93DAD427B4E8C6002B2E07 /* Common */,
+				4D93DAD227B4E67D002B2E07 /* CustomUI */,
 				4D93DAB527B4D53A002B2E07 /* AppDelegate.swift */,
 				4D93DAB727B4D53A002B2E07 /* SceneDelegate.swift */,
-				4D93DAB927B4D53A002B2E07 /* ViewController.swift */,
+				4D93DACC27B4DAAD002B2E07 /* AddMeasuredPersonViewController.swift */,
+				4D93DAD027B4DAFA002B2E07 /* MeasurementDataViewController.swift */,
+				4D93DAB927B4D53A002B2E07 /* MeasuredPersonViewController.swift */,
+				4D93DACE27B4DAD6002B2E07 /* MeasureViewController.swift */,
 				4D93DABB27B4D53A002B2E07 /* Main.storyboard */,
 				4D93DABE27B4D53D002B2E07 /* Assets.xcassets */,
 				4D93DAC027B4D53D002B2E07 /* LaunchScreen.storyboard */,
 				4D93DAC327B4D53D002B2E07 /* Info.plist */,
 			);
 			path = LibInstructionDemo;
+			sourceTree = "<group>";
+		};
+		4D93DAD427B4E8C6002B2E07 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD466527B6461B00C6C94B /* UIColor.swift */,
+				4D93DADE27B4ED76002B2E07 /* Common.swift */,
+				4D93DAD527B4E8E7002B2E07 /* MeasuredPerson.swift */,
+				4D93DADC27B4ED67002B2E07 /* UserDefault.swift */,
+				4DAD466927B650B700C6C94B /* ProfileViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4D93DAD727B4E937002B2E07 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D93DAD927B4E968002B2E07 /* MeasuredPersonTableViewCell.swift */,
+				4D93DAD827B4E968002B2E07 /* MeasuredPersonTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,9 @@
 			dependencies = (
 			);
 			name = LibInstructionDemo;
+			packageProductDependencies = (
+				4D93DACA27B4D555002B2E07 /* Instructions */,
+			);
 			productName = LibInstructionDemo;
 			productReference = 4D93DAB227B4D53A002B2E07 /* LibInstructionDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 4D93DAA927B4D53A002B2E07;
+			packageReferences = (
+				4D93DAC927B4D555002B2E07 /* XCRemoteSwiftPackageReference "Instructions" */,
+			);
 			productRefGroup = 4D93DAB327B4D53A002B2E07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D93DADA27B4E968002B2E07 /* MeasuredPersonTableViewCell.xib in Resources */,
 				4D93DAC227B4D53D002B2E07 /* LaunchScreen.storyboard in Resources */,
+				4D93DAD327B4E67D002B2E07 /* CustomUI in Resources */,
 				4D93DABF27B4D53D002B2E07 /* Assets.xcassets in Resources */,
 				4D93DABD27B4D53A002B2E07 /* Main.storyboard in Resources */,
 			);
@@ -138,8 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D93DABA27B4D53A002B2E07 /* ViewController.swift in Sources */,
+				4D93DABA27B4D53A002B2E07 /* MeasuredPersonViewController.swift in Sources */,
+				4D93DAD627B4E8E7002B2E07 /* MeasuredPerson.swift in Sources */,
+				4D93DACD27B4DAAD002B2E07 /* AddMeasuredPersonViewController.swift in Sources */,
 				4D93DAB627B4D53A002B2E07 /* AppDelegate.swift in Sources */,
+				4D93DADB27B4E968002B2E07 /* MeasuredPersonTableViewCell.swift in Sources */,
+				4D93DADD27B4ED67002B2E07 /* UserDefault.swift in Sources */,
+				4DAD466A27B650B700C6C94B /* ProfileViewController.swift in Sources */,
+				4D93DAD127B4DAFA002B2E07 /* MeasurementDataViewController.swift in Sources */,
+				4DAD466627B6461B00C6C94B /* UIColor.swift in Sources */,
+				4D93DACF27B4DAD6002B2E07 /* MeasureViewController.swift in Sources */,
+				4D93DADF27B4ED77002B2E07 /* Common.swift in Sources */,
 				4D93DAB827B4D53A002B2E07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +428,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D93DAC927B4D555002B2E07 /* XCRemoteSwiftPackageReference "Instructions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ephread/Instructions";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D93DACA27B4D555002B2E07 /* Instructions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D93DAC927B4D555002B2E07 /* XCRemoteSwiftPackageReference "Instructions" */;
+			productName = Instructions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D93DAAA27B4D53A002B2E07 /* Project object */;
 }
